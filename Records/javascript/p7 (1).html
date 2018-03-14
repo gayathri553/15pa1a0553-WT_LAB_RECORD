@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<body onresize="myFunction()">
+<p>resize</p>
+<p id="demo"></p>
+<script>
+function myFunction() {
+    var w = window.outerWidth;
+    var h = window.outerHeight;
+    var txt = "Window size: width=" + w + ", height=" + h;
+    document.getElementById("demo").innerHTML = txt;
+}
+</script>
+</body>
+</html>
+

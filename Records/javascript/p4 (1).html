@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+<h1>Enter the text<h1>
+<script>
+    function toupper()
+    {
+      document.getElementById("output").value=document.getElementById("input").value.toUpperCase();
+    }
+</script>
+<form name="converter">
+<input type="text" id="input" name="input the text" value="" onchange="toupper()"/>
+<input type="text" id="output" />
+</form>
+</html> 

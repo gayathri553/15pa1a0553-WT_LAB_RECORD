@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <script>
+            function findPrime(){
+                //get the input value
+                var num = document.getElementById('num').value;
+                var c = 0;
+
+                //loop till i equals to $num
+                for (i = 1; i <= num; i++) {
+                    //check if the $num is divisible by itself and 1
+                    // % modules will give the reminder value, so if the reminder is 0 then it is divisible
+                    if (num % i == 0) {
+                        //increment the value of c
+                        c = c + 1;
+                    }
+                }
+
+                //if the value of c is 2 then it is a prime number
+                //because a prime number should be exactly divisible by 2 times only (itself and 1)
+                if (c == 2) {
+                    document.getElementById('result').innerHTML = num + ' is a Prime number';
+                }else{
+                    document.getElementById('result').innerHTML = num + ' is NOT a Prime number';
+                }
+            }        
+        </script>
+    </head>
+    <body>
+        <h2>JavaScript to find Prime number or not!</h2>
+        <form method="post">
+            Enter a number:  <input type="number" id="num" name="num" min="0"onclick="findPrime()" name="find"/>
+            <div style="margin-top: 10px;" id="result"></div>
+        </form>
+    </body>
+</html>
+
+
+

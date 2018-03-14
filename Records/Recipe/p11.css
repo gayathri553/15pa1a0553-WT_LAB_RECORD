@@ -1,0 +1,51 @@
+header{
+background-color:IndianRed;
+text-align:center;
+color:white;
+padding:1px 0 2px 0;
+font-family:Arial,sans-serif;
+}
+html{
+background-image:url("/home/user/Downloads/RecipeWorld/images/stardust.png");
+}
+header,a{
+    text-decoration:none;
+   
+}
+.nav a{
+  color:white;
+}
+header,li{
+   list-style:none;
+   
+}
+
+.nav li{
+   display:inline;
+   font-family:arial;
+   padding:5px;	
+   color:white;
+}
+h2{
+ color:lightseagreen;
+ text-align:center;
+ font-family:Arial;
+ font-size:40px; 
+ padding-top:20px;
+}
+.magic,.tacosarus,.Florida,.Mystery{ 
+border:1px solid IndianRed;
+margin:0px 6px 6px 5px;
+
+}
+
+.rec{
+   margin: 10px 250px 20px 250px;
+    background:white;
+}
+footer{
+    text-align:center;
+    color:white;
+    font-style:italic;
+}
+  }

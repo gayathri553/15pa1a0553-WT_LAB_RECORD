@@ -1,0 +1,33 @@
+<div id= "main">
+
+  </div>
+  <div id= "lil">
+<form name="music" method="post" action="">
+<p>
+<input type="radio" name="music" value="radio" onClick="changeColour('b')">Blue
+<br>
+<input type="radio" name="music" value="radio" onClick="changeColour('r')">red
+<br>
+<input type="radio" name="music" value="radio" onClick="changeColour('g')">green
+<br>
+</form>
+</div>
+<script>
+function changeColour(value)
+{
+    var color = document.body.style.backgroundColor;
+    switch(value)
+    {
+        case 'b':
+            color = "#FF0000";
+        break;
+        case 'r':
+            color = "#0000FF";
+        break;
+        case 'g':
+            color = "green";
+        break;
+    }
+    document.body.style.backgroundColor = color;
+}
+</script>

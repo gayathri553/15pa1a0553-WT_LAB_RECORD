@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<h1>FINDING THE INTEREST</h1>
+<script>
+    function calculate()
+    {
+                p = document.getElementById("p").value;
+                t= document.getElementById("t").value;
+                r = document.getElementById("r").value;
+                ptr = document.getElementById("ptr");
+                
+                ptr.innerHTML = "The interest is " + (p*t*r/100);
+    }
+</script>
+<body>
+<input  id="p" >
+<input  id="t" >
+<input  id="r" >
+  <button onclick="calculate()">interest value</button>
+<p id="ptr"></p>
+</body>
+</html> 

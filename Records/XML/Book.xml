@@ -1,0 +1,60 @@
+<?xml version="1.0"?>
+<?xml-stylesheet type="text/xsl" href="books.xsl"?>
+<catalog>
+   <book>
+						 <title>XML Developer's Guide</title>
+						 <author>Ralls, Kim</author>
+						 <ISBN>1675</ISBN>
+						 <publisher>2000-10-01</publisher>
+						 <edition>3</edition>
+						 <price>44.95</price>
+  </book>
+  <book>
+                        <title>internet worldwideweb</title>
+                        <author>Ditel</author>
+                        <ISBN>123-456-781</ISBN>
+                        <publisher>person</publisher>
+                        <edition>3</edition>
+                        <price>450</price>
+  </book>
+  <book>
+                        <title>Web Technology</title>
+                        <author>Gambardella, Matthew</author>
+                        <ISBN>12781</ISBN>
+                        <publisher>kiwier</publisher>
+                        <edition>9</edition>
+                        <price>950</price>
+  </book>
+  <book>
+                        <title>Maeve Ascendant</title>
+                        <author>Corets, Eva</author>
+                        <ISBN>457</ISBN>
+                        <publisher>Amalar</publisher>
+                        <edition>6</edition>
+                        <price>955</price>
+  </book>
+  <book>
+                        <title>Oberon's Legacy</title>
+                        <author>Corets, Eva</author>
+                        <ISBN>12345</ISBN>
+                        <publisher>harrymansion</publisher>
+                        <edition>2</edition>
+                        <price>670</price>
+  </book>
+  <book>
+                        <title>Angry Birds</title>
+                        <author>Randall, Cynthia</author>
+                        <ISBN>561</ISBN>
+                        <publisher>Randy</publisher>
+                        <edition>7</edition>
+                        <price>450</price>
+  </book>
+  <book>
+                        <title>>Splish Splash</title>
+                        <author>Thurman, Paula</author>
+                        <ISBN>3-456</ISBN>
+                        <publisher>Splash</publisher>
+                        <edition>4</edition>
+                        <price>780</price>
+  </book>
+ </catalog>

@@ -1,0 +1,28 @@
+<html>
+  <head>
+    <style>
+      p{
+        padding:10px
+      }
+    </style>
+  </head>
+  <p id="main">We are learning java script.</p>  
+  <input type="radio" name="color" id="red">Red
+  <input type="radio" name="color" id="green">Green
+  <input type="radio"  name="color" id="blue">Blue
+  <script>
+document.getElementById("red").onclick = function()  {
+   document.getElementById("main").style.background  = "red";
+   document.getElementById("main").style.color  = "white";
+}
+document.getElementById("green").onclick =  function()  {
+   document.getElementById("main").style.background  = "green";
+   document.getElementById("main").style.color  = "white";
+}
+document.getElementById("blue").onclick =  function()  {
+   document.getElementById("main").style.background  = "blue";
+   document.getElementById("main").style.color  = "white";
+}
+
+</script>
+  </html>
